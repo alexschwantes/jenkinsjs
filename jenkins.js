@@ -15,7 +15,7 @@ jQuery( document ).ready(function() {
 
 	reg = new RegExp(/Screenshot: .*(\/screenshots.*)/g); 
 	jQuery('pre:contains("Screenshot:")').each(function(){
-		// console.log("Found a screenshot");
+		console.log("Found a screenshot");
 		// if(jQuery(this).children().length <= 1) {
 		var result;
 		while((result = reg.exec(jQuery(this).html())) !== null) {
