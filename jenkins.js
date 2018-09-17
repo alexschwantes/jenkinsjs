@@ -13,7 +13,7 @@ jQuery( document ).ready(function() {
 		url += "/" + pathParts[jobPart+2];
 	}
 
-	reg = new RegExp(/Screenshot: .*(\/screenshots.*)/g); 
+	reg = new RegExp(/Screenshot:.*(\/screenshots.*png)/gs); 
 	jQuery('pre:contains("Screenshot:")').each(function(){
 		console.log("Found a screenshot");
 		// if(jQuery(this).children().length <= 1) {
