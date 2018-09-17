@@ -22,7 +22,7 @@ jQuery( document ).ready(function() {
 			// console.log(result[1]);
 			jQuery(this).after('<img src="'+ url + '/artifact' + result[1]+'" style="border:solid 1px #bbb; float:left; margin:10px 10px 0 0">');
 		}
-		// jQuery(this).css("border","solid 2px red") 
+		jQuery(this).css("border","solid 2px red");
 		// }
 	});
 });
