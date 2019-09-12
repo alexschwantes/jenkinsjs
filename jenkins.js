@@ -20,7 +20,7 @@ jQuery( document ).ready(function() {
 		var result;
 		while((result = reg.exec(jQuery(this).html())) !== null) {
 			console.log(result[1]);
-			jQuery(this).after('<img src="'+ url + '/artifact' + result[1]+'" style="border:solid 1px #bbb; float:left; margin:10px 10px 0 0">');
+			jQuery(this).after('<img src="'+ url + '/artifact/e2e' + result[1]+'" style="border:solid 1px #bbb; float:left; margin:10px 10px 0 0">');
 		}
 		//jQuery(this).css("border","solid 2px red");
 		// }
